@@ -1,0 +1,203 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00f7ff, #4cff85, #b772ef);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+ height: 500px;
+ position: relative;
+ align-items: center;
+ justify-content: center;
+}
+.container{
+   display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.name{
+  margin-top: 185px;
+  justify-self: center;
+  font-size: x-large;
+  font-family:Playwrite AU QLD, cursive;
+  font-weight: bolder;
+  color: #4f4747;
+}
+.programmer{
+  font-family: Bitcount, system-ui;
+  color: #4f4747;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-left: 13px;
+}
+.logo{
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 50px;
+  padding-left: 0cm;
+
+}
+.logo1{
+  height: 100px;
+  position: absolute ;
+  bottom:0 ;
+  right: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: end;
+  margin: 50px;
+
+}
+.d-block{
+  border-radius: 50%;
+}
+.hi{
+  color: blueviolet;
+  font-weight:bold;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.second container{
+justify-self: center;
+  align-items: center;
+  align-self: center;
+ 
+}
+.skill{
+  
+  justify-self: center;
+ align-self: center;
+  color:blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.cpp{
+  
+  width:250px;
+  
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+ 
+}
+
+.one{
+  color: purple;
+}
+.two{
+  color: #b772ef;
+  font-weight: lighter;
+}
+.three{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+  background: linear-gradient(to bottom, #e0bbff, #6a0dad); /* light violet to deep purple */
+  color: white;
+  border: none;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width:140px;
+
+}
+.bottom-container {
+  background-color:#6a0dad;
+  padding: 50px 0 50px;
+}
+.insta,
+.linked,
+.face,
+.nav-link {
+  color:rgb(255, 255, 255)!important; /* Example: white */
+}
+
+footer p.text-center.text-body-secondary {
+  color: #dcdcdc !important; /* Example: light grey */
+}
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .gradient-background {
+    height: auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .name {
+    margin-top: 120px;
+    font-size: 1.5rem;
+  }
+
+  .programmer {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    height: 60px;
+    margin: 20px;
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo1 {
+    height: 60px;
+    position: static;
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+
+  .skills {
+    width: 90%;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .cpp {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 15px auto;
+    float: none;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .hi {
+    font-size: 1.8rem;
+  }
+
+  .skill {
+    font-size: 2rem;
+  }
+
+  .second .container,
+  .third .container {
+    padding: 0 10px;
+  }
+
+  footer ul.nav {
+    flex-direction: column;
+  }
+
+  footer .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+
